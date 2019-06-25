@@ -41,6 +41,13 @@
         (jar)
         (install)))
 
+(deftask sdeploy []
+  (comp (pom)
+        (javac)
+        (aot)
+        (build-jar)
+        (push-snapshot)))
+
 (task-options!
   push {:ensure-branch nil}
   aot {:all true}
