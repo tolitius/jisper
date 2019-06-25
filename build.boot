@@ -6,7 +6,7 @@
                   [org.clojure/data.csv     "0.1.4"]
 
                   ;; boot clj
-                  [boot/core                "2.8.3"      :scope "provided"]
+                  [boot/core                "2.7.1"      :scope "provided"]
                   [adzerk/bootlaces         "0.2.0"      :scope "test"]
                   [adzerk/boot-test         "1.2.0"      :scope "test"]])
 
